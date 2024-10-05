@@ -32,7 +32,7 @@ The server will run on http://localhost:3000.
 You can use tools like Postman to interact with the API endpoints. Below are the available endpoints.
 
 ## API Endpoints
-1. Create a Task
+# Create a Task
     Endpoint: POST /tasks
     Request Body:
     {
@@ -47,7 +47,7 @@ You can use tools like Postman to interact with the API endpoints. Below are the
         "description": "Task Description",
         "completed": false
     } 
-2. Get All Tasks
+# Get All Tasks
     Endpoint: GET /tasks
     Response:
     [
@@ -58,7 +58,7 @@ You can use tools like Postman to interact with the API endpoints. Below are the
         "completed": false
     }
     ]  
-3. Get Task by ID
+# Get Task by ID
     Endpoint: GET /tasks/:id
     Response:
     {
@@ -68,7 +68,7 @@ You can use tools like Postman to interact with the API endpoints. Below are the
         "completed": false
     }
 
-4. Update Task by ID
+# Update Task by ID
     Endpoint: PUT /tasks/:id
     Request Body:  
     {
@@ -84,7 +84,7 @@ You can use tools like Postman to interact with the API endpoints. Below are the
         "completed": true
     }
 
-5. Delete Task by ID
+# Delete Task by ID
     Endpoint: DELETE /tasks/:id
     Response: 204 No Content 
 
