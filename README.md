@@ -19,7 +19,7 @@ To install this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/task-manager.git
+   git clone https://github.com/ameya-kanchan/task-manager.git
    cd task-manager
 2. Install the dependencies:    
    npm install
